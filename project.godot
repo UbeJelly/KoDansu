@@ -30,9 +30,9 @@ config/windows_native_icon="res://Resources/Textures/Icons/icon.ico"
 
 [display]
 
-window/size/width=307
-window/size/height=219
-window/size/borderless=true
+window/size/width=310
+window/size/height=220
+window/size/resizable=false
 window/size/always_on_top=true
 window/per_pixel_transparency/allowed=true
 window/per_pixel_transparency/enabled=true
