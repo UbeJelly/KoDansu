@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://bklfwnxkbrq2y"]
+
+[ext_resource type="Script" uid="uid://feafbpoqt7d2" path="res://Scripts/About.gd" id="1_8rnfx"]
+[ext_resource type="StyleBox" uid="uid://bgqdqy4p2bnqf" path="res://Resources/Flat_Dark_Opaque_Box.tres" id="2_j0t0u"]
+
+[sub_resource type="FontVariation" id="FontVariation_1ooxe"]
+spacing_top = -9
+spacing_bottom = -6
+
+[node name="About" type="CanvasLayer" unique_id=1387315064]
+script = ExtResource("1_8rnfx")
+
+[node name="Label" type="RichTextLabel" parent="." unique_id=909189069]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -72.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 1
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_styles/normal = ExtResource("2_j0t0u")
+bbcode_enabled = true
+text = "[font embolden=1.0]KoDansu[/font]
+Konata desktop overlay
+© [url href=\"https://github.com/UbeJelly/KoDansu\" tooltip=\"Visit repository\"]UbeJelly (Github)[/url]"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hide" type="Button" parent="Label" unique_id=1385447787]
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -18.0
+offset_top = 1.0
+offset_right = -1.0
+offset_bottom = 26.0
+grow_horizontal = 0
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = SubResource("FontVariation_1ooxe")
+text = "x"
+
+[connection signal="meta_clicked" from="Label" to="." method="_on_link_clicked"]
+[connection signal="pressed" from="Label/Hide" to="." method="_on_hide_pressed"]

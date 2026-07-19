@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://c0bocsa23yt7a"]
+
+[ext_resource type="Script" uid="uid://2ij1lhk6qimo" path="res://Scripts/Options.gd" id="1_hg628"]
+[ext_resource type="StyleBox" uid="uid://bgqdqy4p2bnqf" path="res://Resources/Flat_Dark_Opaque_Box.tres" id="2_5hy3q"]
+[ext_resource type="StyleBox" uid="uid://chvoyxsa1woyt" path="res://Resources/Flat_Dark_Medium_Opaque_Box.tres" id="3_5hy3q"]
+
+[node name="Options" type="CanvasLayer" unique_id=1065610581]
+script = ExtResource("1_hg628")
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=1456448830]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -96.0
+offset_bottom = 101.0
+grow_horizontal = 0
+
+[node name="Minimize" type="Button" parent="VBox" unique_id=223735526]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = ExtResource("2_5hy3q")
+theme_override_styles/hover = ExtResource("3_5hy3q")
+text = "Minimize"
+
+[node name="About" type="Button" parent="VBox" unique_id=1845711311]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = ExtResource("2_5hy3q")
+theme_override_styles/hover = ExtResource("3_5hy3q")
+text = "About"
+
+[node name="Exit" type="Button" parent="VBox" unique_id=342898554]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = ExtResource("2_5hy3q")
+theme_override_styles/hover = ExtResource("3_5hy3q")
+text = "Exit"
+
+[connection signal="pressed" from="VBox/Minimize" to="." method="_on_Minimize_pressed"]
+[connection signal="pressed" from="VBox/About" to="." method="_on_About_pressed"]
+[connection signal="pressed" from="VBox/Exit" to="." method="_on_Exit_pressed"]

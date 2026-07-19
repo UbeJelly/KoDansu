@@ -1,0 +1,503 @@
+[gd_scene format=3 uid="uid://dweqvg141828"]
+
+[ext_resource type="Script" uid="uid://dgewrbrrfofn0" path="res://Scripts/Konata.gd" id="1_8j0qw"]
+[ext_resource type="Texture2D" uid="uid://ytrktrq1024h" path="res://Assets/Textures/Konata/000.png" id="1_i335g"]
+[ext_resource type="Shader" uid="uid://ddl3iptu50gpt" path="res://Resources/Outline.gdshader" id="2_8j0qw"]
+[ext_resource type="Texture2D" uid="uid://bcg6cvmaq82bm" path="res://Assets/Textures/Konata/001.png" id="2_egpmo"]
+[ext_resource type="Texture2D" uid="uid://d2kapqpqat7iw" path="res://Assets/Textures/Konata/002.png" id="3_8j0qw"]
+[ext_resource type="Texture2D" uid="uid://cn4snr8gl0d8x" path="res://Assets/Textures/Konata/003.png" id="4_nkjww"]
+[ext_resource type="Texture2D" uid="uid://b6cix7x2foj5a" path="res://Assets/Textures/Konata/004.png" id="5_mdubm"]
+[ext_resource type="Texture2D" uid="uid://d3oqbpjwr0ea5" path="res://Assets/Textures/Konata/005.png" id="6_3yysl"]
+[ext_resource type="Texture2D" uid="uid://b3jwn8qfdx3cr" path="res://Assets/Textures/Konata/006.png" id="7_j6ljy"]
+[ext_resource type="Texture2D" uid="uid://c3ty6ht7vvak3" path="res://Assets/Textures/Konata/007.png" id="8_4rlmk"]
+[ext_resource type="Texture2D" uid="uid://cssw4dph37o1w" path="res://Assets/Textures/Konata/008.png" id="9_516i4"]
+[ext_resource type="Texture2D" uid="uid://c1c7gy0emmbdp" path="res://Assets/Textures/Konata/009.png" id="10_510x3"]
+[ext_resource type="Texture2D" uid="uid://ddwrjkgpluh55" path="res://Assets/Textures/Konata/010.png" id="11_sdq5s"]
+[ext_resource type="Texture2D" uid="uid://cviqgiyhibw31" path="res://Assets/Textures/Konata/011.png" id="12_witob"]
+[ext_resource type="Texture2D" uid="uid://dnx1fie6yrbyi" path="res://Assets/Textures/Konata/012.png" id="13_mvt2p"]
+[ext_resource type="Texture2D" uid="uid://bydodf6c6kt00" path="res://Assets/Textures/Konata/013.png" id="14_d17lq"]
+[ext_resource type="Texture2D" uid="uid://b4xq8j80omud3" path="res://Assets/Textures/Konata/014.png" id="15_jurkq"]
+[ext_resource type="Texture2D" uid="uid://dm02wqgmej0qv" path="res://Assets/Textures/Konata/015.png" id="16_6kk2k"]
+[ext_resource type="Texture2D" uid="uid://bojyyqrn2i0wh" path="res://Assets/Textures/Konata/016.png" id="17_7ufw6"]
+[ext_resource type="Texture2D" uid="uid://b2jtixd8i6ci5" path="res://Assets/Textures/Konata/017.png" id="18_bn60n"]
+[ext_resource type="Texture2D" uid="uid://cm1b4ik4a1wj3" path="res://Assets/Textures/Konata/018.png" id="19_18jat"]
+[ext_resource type="Texture2D" uid="uid://btunxmrmgc33g" path="res://Assets/Textures/Konata/019.png" id="20_ldja7"]
+[ext_resource type="Texture2D" uid="uid://dcbcd122piy72" path="res://Assets/Textures/Konata/020.png" id="21_jls3m"]
+[ext_resource type="Texture2D" uid="uid://b1qlhtejb015" path="res://Assets/Textures/Konata/021.png" id="22_ftmtl"]
+[ext_resource type="Texture2D" uid="uid://268vpxyofr2x" path="res://Assets/Textures/Konata/022.png" id="23_mgvhb"]
+[ext_resource type="Texture2D" uid="uid://u8pji8dfbf2t" path="res://Assets/Textures/Konata/023.png" id="24_fa66q"]
+[ext_resource type="Texture2D" uid="uid://be7y2o8sbc3x6" path="res://Assets/Textures/Konata/024.png" id="25_p2570"]
+[ext_resource type="Texture2D" uid="uid://bb6uu4lfpl8at" path="res://Assets/Textures/Konata/025.png" id="26_kc4vs"]
+[ext_resource type="Texture2D" uid="uid://bdojkhaw4g7pi" path="res://Assets/Textures/Konata/026.png" id="27_23wcx"]
+[ext_resource type="Texture2D" uid="uid://c7xe24uc5agtg" path="res://Assets/Textures/Konata/027.png" id="28_umcm8"]
+[ext_resource type="Texture2D" uid="uid://befsd3ybaabv0" path="res://Assets/Textures/Konata/028.png" id="29_aid10"]
+[ext_resource type="Texture2D" uid="uid://cjbtkdk2cdkca" path="res://Assets/Textures/Konata/029.png" id="30_ghw6f"]
+[ext_resource type="Texture2D" uid="uid://6nvums5tuyyu" path="res://Assets/Textures/Konata/030.png" id="31_tyb06"]
+[ext_resource type="Texture2D" uid="uid://l5fw86wpladi" path="res://Assets/Textures/Konata/031.png" id="32_ewsra"]
+[ext_resource type="Texture2D" uid="uid://fqctr7cv7308" path="res://Assets/Textures/Konata/032.png" id="33_10sv1"]
+[ext_resource type="Texture2D" uid="uid://c5vj8ghsi3seh" path="res://Assets/Textures/Konata/033.png" id="34_7g8dc"]
+[ext_resource type="Texture2D" uid="uid://ciqexr7ubg4i4" path="res://Assets/Textures/Konata/034.png" id="35_8f6ub"]
+[ext_resource type="Texture2D" uid="uid://b26awug8tywoe" path="res://Assets/Textures/Konata/035.png" id="36_06rtu"]
+[ext_resource type="Texture2D" uid="uid://cyh8gtfgrj2jb" path="res://Assets/Textures/Konata/036.png" id="37_lef0l"]
+[ext_resource type="Texture2D" uid="uid://dl07pahfvvn4n" path="res://Assets/Textures/Konata/037.png" id="38_pj3oe"]
+[ext_resource type="Texture2D" uid="uid://cjr558n4unxyp" path="res://Assets/Textures/Konata/038.png" id="39_u83f1"]
+[ext_resource type="Texture2D" uid="uid://dijl12benx4l" path="res://Assets/Textures/Konata/039.png" id="40_shfio"]
+[ext_resource type="Texture2D" uid="uid://bujo60ci320xa" path="res://Assets/Textures/Konata/040.png" id="41_r80bn"]
+[ext_resource type="Texture2D" uid="uid://43ykkxk1jma4" path="res://Assets/Textures/Konata/041.png" id="42_eq22f"]
+[ext_resource type="Texture2D" uid="uid://dun6kdinklhek" path="res://Assets/Textures/Konata/042.png" id="43_de22h"]
+[ext_resource type="Texture2D" uid="uid://cm8arptdxmj4w" path="res://Assets/Textures/Konata/043.png" id="44_gn58n"]
+[ext_resource type="Texture2D" uid="uid://dunh77qk6jgxj" path="res://Assets/Textures/Konata/044.png" id="45_8ss5t"]
+[ext_resource type="Texture2D" uid="uid://6kaxq7fyrrr4" path="res://Assets/Textures/Konata/045.png" id="46_n7ik6"]
+[ext_resource type="Texture2D" uid="uid://dqxkn5vjb0em" path="res://Assets/Textures/Konata/046.png" id="47_nnndq"]
+[ext_resource type="Texture2D" uid="uid://dlmlvmcn4lx81" path="res://Assets/Textures/Konata/047.png" id="48_wlksw"]
+[ext_resource type="Texture2D" uid="uid://dkfac4e0wfqgp" path="res://Assets/Textures/Konata/048.png" id="49_pv5fl"]
+[ext_resource type="Texture2D" uid="uid://dxw1kfq7el6u0" path="res://Assets/Textures/Konata/049.png" id="50_uvc7p"]
+[ext_resource type="Texture2D" uid="uid://dmci3d1h0gyqa" path="res://Assets/Textures/Konata/050.png" id="51_jqp32"]
+[ext_resource type="Texture2D" uid="uid://7i2m1tuuq4cp" path="res://Assets/Textures/Konata/051.png" id="52_tsxw5"]
+[ext_resource type="Texture2D" uid="uid://c4h1l3cqe6yv6" path="res://Assets/Textures/Konata/052.png" id="53_475ll"]
+[ext_resource type="Texture2D" uid="uid://vgqrclioes75" path="res://Assets/Textures/Konata/053.png" id="54_kyrc6"]
+[ext_resource type="Texture2D" uid="uid://e74qu5y06fgd" path="res://Assets/Textures/Konata/054.png" id="55_cquqt"]
+[ext_resource type="Texture2D" uid="uid://cy55txfdoi0h4" path="res://Assets/Textures/Konata/055.png" id="56_sscyo"]
+[ext_resource type="Texture2D" uid="uid://dmqs4mb2u3576" path="res://Assets/Textures/Konata/056.png" id="57_h17h7"]
+[ext_resource type="Texture2D" uid="uid://nkxl4wfodqv" path="res://Assets/Textures/Konata/057.png" id="58_mbgl3"]
+[ext_resource type="Texture2D" uid="uid://1vkti0t88f7l" path="res://Assets/Textures/Konata/058.png" id="59_0wi1p"]
+[ext_resource type="Texture2D" uid="uid://cke1m5isfusqh" path="res://Assets/Textures/Konata/059.png" id="60_jv2i2"]
+[ext_resource type="Texture2D" uid="uid://bukih7oj6ikpk" path="res://Assets/Textures/Konata/060.png" id="61_cqxlu"]
+[ext_resource type="Texture2D" uid="uid://bchfxkdowu4tv" path="res://Assets/Textures/Konata/061.png" id="62_orswe"]
+[ext_resource type="Texture2D" uid="uid://fc6yc211w6fh" path="res://Assets/Textures/Konata/062.png" id="63_sj5q7"]
+[ext_resource type="Texture2D" uid="uid://c4d7deejalluw" path="res://Assets/Textures/Konata/063.png" id="64_i1b02"]
+[ext_resource type="Texture2D" uid="uid://h3bodsbkigat" path="res://Assets/Textures/Konata/064.png" id="65_tjkk2"]
+[ext_resource type="Texture2D" uid="uid://bs8x7vlm5rwbv" path="res://Assets/Textures/Konata/065.png" id="66_cafj2"]
+[ext_resource type="Texture2D" uid="uid://bomqrlg2tdv3t" path="res://Assets/Textures/Konata/066.png" id="67_t45qm"]
+[ext_resource type="Texture2D" uid="uid://dmpjs64hk5sk2" path="res://Assets/Textures/Konata/067.png" id="68_ea8fp"]
+[ext_resource type="Texture2D" uid="uid://cdlvomb1p7brt" path="res://Assets/Textures/Konata/068.png" id="69_fewuw"]
+[ext_resource type="Texture2D" uid="uid://bd1jp8shaen17" path="res://Assets/Textures/Konata/069.png" id="70_tsmcj"]
+[ext_resource type="Texture2D" uid="uid://cgk4inecreps0" path="res://Assets/Textures/Konata/070.png" id="71_bk57d"]
+[ext_resource type="Texture2D" uid="uid://blwg8drtd0yv1" path="res://Assets/Textures/Konata/071.png" id="72_fb8hv"]
+[ext_resource type="Texture2D" uid="uid://de41v4vp3451g" path="res://Assets/Textures/Konata/072.png" id="73_tg3jl"]
+[ext_resource type="Texture2D" uid="uid://b40n7do7jsh6e" path="res://Assets/Textures/Konata/073.png" id="74_ktaip"]
+[ext_resource type="Texture2D" uid="uid://b3hpbmstoydl3" path="res://Assets/Textures/Konata/074.png" id="75_y6sws"]
+[ext_resource type="Texture2D" uid="uid://dphyk1f6m0owt" path="res://Assets/Textures/Konata/075.png" id="76_mtpw0"]
+[ext_resource type="Texture2D" uid="uid://c0dh66aetgcym" path="res://Assets/Textures/Konata/076.png" id="77_35kt8"]
+[ext_resource type="Texture2D" uid="uid://ce10ac7e873hu" path="res://Assets/Textures/Konata/077.png" id="78_rcbfs"]
+[ext_resource type="Texture2D" uid="uid://c3cpmte8dlgi0" path="res://Assets/Textures/Konata/078.png" id="79_7dmdr"]
+[ext_resource type="Texture2D" uid="uid://bdu0jcsief2x3" path="res://Assets/Textures/Konata/079.png" id="80_rm15l"]
+[ext_resource type="Texture2D" uid="uid://vmsm01f6qfv4" path="res://Assets/Textures/Konata/080.png" id="81_aegpf"]
+[ext_resource type="Texture2D" uid="uid://nm16ndxh0nws" path="res://Assets/Textures/Konata/081.png" id="82_fy0cx"]
+[ext_resource type="Texture2D" uid="uid://ctrniljx26a8" path="res://Assets/Textures/Konata/082.png" id="83_omlxg"]
+[ext_resource type="Texture2D" uid="uid://dws0qvn0ttynj" path="res://Assets/Textures/Konata/083.png" id="84_kxy3n"]
+[ext_resource type="Texture2D" uid="uid://b6cogscc3nm8q" path="res://Assets/Textures/Konata/084.png" id="85_cwqaa"]
+[ext_resource type="Texture2D" uid="uid://tnmv8jfnkij1" path="res://Assets/Textures/Konata/085.png" id="86_xhrc8"]
+[ext_resource type="Texture2D" uid="uid://ep4andtd5dqi" path="res://Assets/Textures/Konata/086.png" id="87_86kk7"]
+[ext_resource type="Texture2D" uid="uid://i2y83jeiq7gs" path="res://Assets/Textures/Konata/087.png" id="88_ew3x1"]
+[ext_resource type="Texture2D" uid="uid://bcyp7nyvy3ekk" path="res://Assets/Textures/Konata/088.png" id="89_roqvw"]
+[ext_resource type="Texture2D" uid="uid://blv44mk5ym6br" path="res://Assets/Textures/Konata/089.png" id="90_eqvvr"]
+[ext_resource type="Texture2D" uid="uid://curcyv6t6ql8i" path="res://Assets/Textures/Konata/090.png" id="91_e5qis"]
+[ext_resource type="Texture2D" uid="uid://bpfwebfteej3a" path="res://Assets/Textures/Konata/091.png" id="92_57hl6"]
+[ext_resource type="Texture2D" uid="uid://d2ehnypb1a6ny" path="res://Assets/Textures/Konata/092.png" id="93_nwa20"]
+[ext_resource type="Texture2D" uid="uid://djgsbkqbsxt6m" path="res://Assets/Textures/Konata/093.png" id="94_5jlpq"]
+[ext_resource type="Texture2D" uid="uid://b8orte58xjnla" path="res://Assets/Textures/Konata/094.png" id="95_as0hb"]
+[ext_resource type="Texture2D" uid="uid://d3c70gk4mtolq" path="res://Assets/Textures/Konata/095.png" id="96_gr7vo"]
+[ext_resource type="Texture2D" uid="uid://db62nx72tg6fx" path="res://Assets/Textures/Konata/096.png" id="97_tn3y2"]
+[ext_resource type="Texture2D" uid="uid://duj77ovwrai2s" path="res://Assets/Textures/Konata/097.png" id="98_216xa"]
+[ext_resource type="Texture2D" uid="uid://d2x6k4afxkl26" path="res://Assets/Textures/Konata/098.png" id="99_2wb0c"]
+[ext_resource type="Texture2D" uid="uid://vgq1vy1hatxo" path="res://Assets/Textures/Konata/099.png" id="100_d48dm"]
+[ext_resource type="Texture2D" uid="uid://bnaukbt53ngy1" path="res://Assets/Textures/Konata/100.png" id="101_we6rf"]
+[ext_resource type="Texture2D" uid="uid://cn04iesruvd5v" path="res://Assets/Textures/Konata/101.png" id="102_kxgpd"]
+[ext_resource type="Texture2D" uid="uid://tuirr26o7vmm" path="res://Assets/Textures/Konata/102.png" id="103_y0714"]
+[ext_resource type="Texture2D" uid="uid://b7vqbv6wcybmo" path="res://Assets/Textures/Konata/103.png" id="104_uup7o"]
+[ext_resource type="Texture2D" uid="uid://3t24hk68tb3g" path="res://Assets/Textures/Konata/104.png" id="105_alrrb"]
+[ext_resource type="Texture2D" uid="uid://djtf3ivgs4se1" path="res://Assets/Textures/Konata/105.png" id="106_3vlxy"]
+[ext_resource type="Texture2D" uid="uid://d33mmqsqkkesx" path="res://Assets/Textures/Konata/106.png" id="107_hqkx6"]
+[ext_resource type="Texture2D" uid="uid://ciokuhwu75qn6" path="res://Assets/Textures/Konata/107.png" id="108_cxoo1"]
+[ext_resource type="Texture2D" uid="uid://v4fpvvifi286" path="res://Assets/Textures/Konata/108.png" id="109_pf8d1"]
+[ext_resource type="Texture2D" uid="uid://bwrnmsbrw1nr0" path="res://Assets/Textures/Konata/109.png" id="110_o0jo2"]
+[ext_resource type="Texture2D" uid="uid://vpy1usv2vyql" path="res://Assets/Textures/Konata/110.png" id="111_hujkp"]
+[ext_resource type="Texture2D" uid="uid://b3kpedhx6csfl" path="res://Assets/Textures/Konata/111.png" id="112_joga3"]
+[ext_resource type="Texture2D" uid="uid://ck74pp4xg5bt2" path="res://Assets/Textures/Konata/112.png" id="113_or1ex"]
+[ext_resource type="Texture2D" uid="uid://d2jml3wk8bffh" path="res://Assets/Textures/Konata/113.png" id="114_tvws0"]
+[ext_resource type="Texture2D" uid="uid://bsuhfx1cqkg82" path="res://Assets/Textures/Konata/114.png" id="115_1777l"]
+[ext_resource type="Texture2D" uid="uid://cwmeg2xaua7j1" path="res://Assets/Textures/Konata/115.png" id="116_hgul1"]
+[ext_resource type="Texture2D" uid="uid://cf8555cvoqxl8" path="res://Assets/Textures/Konata/116.png" id="117_ky4f6"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ulj07"]
+shader = ExtResource("2_8j0qw")
+shader_parameter/allow_out_of_bounds = true
+shader_parameter/outline_thickness = 0.0
+shader_parameter/outline_color = Color(1, 1, 1, 1)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mqryn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_i335g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_egpmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_8j0qw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nkjww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mdubm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3yysl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_j6ljy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4rlmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_516i4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_510x3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_sdq5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_witob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_mvt2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_d17lq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_jurkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6kk2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_7ufw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bn60n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_18jat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ldja7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_jls3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ftmtl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_mgvhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_fa66q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_p2570")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_kc4vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_23wcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_umcm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_aid10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ghw6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_tyb06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ewsra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_10sv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_7g8dc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_8f6ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_06rtu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_lef0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_pj3oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_u83f1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_shfio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_r80bn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_eq22f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_de22h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_gn58n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_8ss5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_n7ik6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_nnndq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_wlksw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_pv5fl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_uvc7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_jqp32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_tsxw5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_475ll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_kyrc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_cquqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_sscyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_h17h7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_mbgl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_0wi1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_jv2i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_cqxlu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_orswe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_sj5q7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_i1b02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_tjkk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_cafj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_t45qm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_ea8fp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_fewuw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_tsmcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_bk57d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_fb8hv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_tg3jl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_ktaip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_y6sws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_mtpw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_35kt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_rcbfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_7dmdr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_rm15l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_aegpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_fy0cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_omlxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_kxy3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_cwqaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_xhrc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_86kk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_ew3x1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_roqvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_eqvvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_e5qis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_57hl6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_nwa20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_5jlpq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_as0hb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_gr7vo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_tn3y2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_216xa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_2wb0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_d48dm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_we6rf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_kxgpd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_y0714")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_uup7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_alrrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_3vlxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_hqkx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_cxoo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_pf8d1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_o0jo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_hujkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_joga3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_or1ex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_tvws0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_1777l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_hgul1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_ky4f6")
+}],
+"loop": 1,
+"name": &"dance",
+"speed": 12.0
+}]
+
+[node name="Konata" type="SubViewport" unique_id=1772234123]
+disable_3d = true
+transparent_bg = true
+handle_input_locally = false
+canvas_item_default_texture_filter = 2
+gui_snap_controls_to_pixels = false
+oversampling = false
+size = Vector2i(310, 220)
+script = ExtResource("1_8j0qw")
+
+[node name="Frames" type="AnimatedSprite2D" parent="." unique_id=415714115]
+material = SubResource("ShaderMaterial_ulj07")
+sprite_frames = SubResource("SpriteFrames_mqryn")
+animation = &"dance"
+frame_progress = 0.072978936
+centered = false

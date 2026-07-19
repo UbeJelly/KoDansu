@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://db8h84rreqxls"]
+
+[ext_resource type="Script" uid="uid://kmpm14eifogh" path="res://Scripts/View.gd" id="1_bpxvu"]
+[ext_resource type="Shader" uid="uid://belplopqghac1" path="res://Resources/Shadow.gdshader" id="2_qfey7"]
+[ext_resource type="Script" uid="uid://d1jy6onrrw3si" path="res://Scripts/Sprite.gd" id="3_i0tos"]
+[ext_resource type="PackedScene" uid="uid://dweqvg141828" path="res://Scenes/Konata.tscn" id="4_e5ap8"]
+[ext_resource type="PackedScene" uid="uid://c0bocsa23yt7a" path="res://Scenes/Options.tscn" id="5_ecd77"]
+[ext_resource type="PackedScene" uid="uid://bklfwnxkbrq2y" path="res://Scenes/About.tscn" id="6_e0pny"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5pgey"]
+shader = ExtResource("2_qfey7")
+shader_parameter/thickness = 2.000000095
+shader_parameter/ring_count = 16
+shader_parameter/ring_offset = 0.0
+shader_parameter/outline_color = Color(0, 0, 0, 0.5882353)
+shader_parameter/border_clipping_fix = true
+shader_parameter/aspect_ratio = 1.0
+shader_parameter/square_border = false
+shader_parameter/offset = Vector2(-2, -2)
+shader_parameter/max_or_add = false
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_808q2"]
+viewport_path = NodePath("View/Sprite/Konata")
+
+[node name="Main" type="Node" unique_id=230764404]
+
+[node name="View" type="Control" parent="." unique_id=1432528287]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bpxvu")
+
+[node name="Sprite" type="TextureRect" parent="View" unique_id=102241875]
+material = SubResource("ShaderMaterial_5pgey")
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = SubResource("ViewportTexture_808q2")
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("3_i0tos")
+
+[node name="Konata" parent="View/Sprite" unique_id=1772234123 instance=ExtResource("4_e5ap8")]
+
+[node name="Options" parent="View" unique_id=1065610581 instance=ExtResource("5_ecd77")]
+visible = false
+
+[node name="About" parent="View" unique_id=1387315064 instance=ExtResource("6_e0pny")]
+visible = false
+
+[connection signal="gui_input" from="View" to="View" method="_on_Window_gui_input"]
+[connection signal="mouse_entered" from="View/Sprite" to="View/Sprite" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="View/Sprite" to="View/Sprite" method="_on_mouse_exited"]
+[connection signal="set_about_visible" from="View/Options" to="View" method="_on_set_About_visible"]
