@@ -7,7 +7,7 @@
 
 Inspired from ***kona_dancer*** by *Izya* on May 12, 2007, KoDansu is a modern recreation of the app. Light and extensible.
 
-![preview.gif](preview.gif)
+![.github/KoDansu_demo.gif](.github/KoDansu_demo.gif)
 
 ## Features
 - Resize via scroll wheel
