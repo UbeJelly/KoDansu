@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="KoDansu"
-config/description="A simple Konata desktop overlay"
+config/description="A Konata desktop overlay"
 run/main_scene="res://Scenes/View.tscn"
 config/features=PackedStringArray("4.7")
 boot_splash/bg_color=Color(0, 0, 0, 0)
@@ -34,7 +34,7 @@ window/subwindows/embed_subwindows=false
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 window/per_pixel_transparency/allowed=true
-window/vsync/vsync_mode=0
+window/vsync/vsync_mode=2
 window/per_pixel_transparency/enabled=true
 
 [editor]

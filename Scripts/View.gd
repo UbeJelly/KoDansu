@@ -1,8 +1,10 @@
 extends Control
 
 
-var dragging: bool = false
-var click_xy: Vector2 = Vector2.ZERO
+const MIN_SIZE := Vector2i(250, 160)
+const MAX_SIZE := Vector2i(500, 320)
+@onready var dragging := false
+@onready var click_xy := Vector2.ZERO
 
 
 func _input(event: InputEvent) -> void:
@@ -15,11 +17,13 @@ func _input(event: InputEvent) -> void:
 				dragging = false
 
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP:
-			get_window().size += Vector2i(10, 10)
-			if Engine.is_editor_hint() or OS.is_debug_build():
-				print(get_window().get_size())
+			if get_window().size <= MAX_SIZE:
+				get_window().size += Vector2i(10, 10)
+				if Engine.is_editor_hint() or OS.is_debug_build():
+					print(get_window().get_size())
+
 		if event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
-			if get_window().size >= Vector2i(250, 160):
+			if get_window().size >= MIN_SIZE:
 				get_window().size -= Vector2i(10, 10)
 				if Engine.is_editor_hint() or OS.is_debug_build():
 					print(get_window().get_size())

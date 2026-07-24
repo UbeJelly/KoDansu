@@ -5,8 +5,7 @@
 
 <h1>KoDansu</h1>
 
-Inspired from ***kona_dancer*** by *Izya* released in May 12, 2007, KoDansu is a modern recreation of the app with Godot 4.7.  
-Light and extensible.
+Inspired from ***kona_dancer*** by *Izya* on May 12, 2007, KoDansu is a modern recreation of the app. Light and extensible.
 
 ![preview.gif](preview.gif)
 
